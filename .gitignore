@@ -1,0 +1,58 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+*.sqlite3
+
+# Django static/media
+staticfiles/
+media/
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# IDE/editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test/coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Migrations (opsiyonel, eğer migration dosyalarını paylaşmak istemiyorsan)
+# */migrations/*
+# !*/migrations/__init__.py
+
+# Postgres/PostGIS dumps
+*.dump
+*.backup
+
+# Misc
+*.swp
+*.bak
+
+# VSCode debug
+.vscode/
+
+# JetBrains
+.idea/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Pyright
+pyrightconfig.json 
